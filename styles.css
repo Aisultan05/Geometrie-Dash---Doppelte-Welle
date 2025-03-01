@@ -1,0 +1,270 @@
+/* Стили для body */
+body {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAARkCAIAAAA8AekkAAAAgElEQVR4Ae2TsQ2AQAwDc+w/EAOxBB010Uv2p4HCxRWQOFIcf53XfVTVJ8Di30Cj9MjeBu86zi5mHQwdmzNFfTHP9gT8/g6mrzC7JUYmUN/Cf7by13STjAkdGBmQGaNr/fc5zI8CfSOx3/xWdm5WoLXSO4HwQvT9lBBCCCGEEMIDf74LtTjwec4AAAAASUVORK5CYII=) repeat-x fixed #FBF9FA;
+    color: #494B4F;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для .top_ad */
+.top_ad {
+    display: block;
+    float: none;
+}
+
+@media (max-width: 500px) {
+    .top_ad {
+        clear: both;
+    }
+}
+
+/* Стили для .description */
+.description {
+    text-align: justify;
+    margin: 0;
+}
+
+/* Стили для .clr */
+.clr {
+    clear: both;
+}
+
+/* Стили для .ingame-top_ad */
+.ingame-top_ad {
+    text-align: center;
+    margin: 10px 0 10px;
+    max-height: 90px;
+}
+
+/* Стили для #outgame */
+#outgame {
+    overflow: hidden;
+}
+
+/* Стили для #close-full-screen */
+#close-full-screen {
+    display: none;
+}
+
+/* Стили для .game-info */
+.game-info {
+    margin-left: 130px;
+}
+
+/* Стили для .related-title */
+.related-title {
+    text-align: left;
+    margin: 0 10px 10px;
+}
+
+/* Стили для .vertical-middle */
+.vertical-middle {
+    vertical-align: middle;
+}
+
+/* Стили для .storym */
+.storym {
+    background: #fffef4;
+    display: inline-table;
+    width: 100%;
+    font-size: 12px;
+    margin: 0 0 6px;
+    text-align: left;
+    clear: right;
+}
+
+/* Стили для .border-10 */
+.border-10 {
+    border-radius: 10px;
+}
+
+/* Стили для .shadow */
+.shadow {
+    box-shadow: 0 0 7px #bdbcbc;
+}
+
+/* Стили для h1.title-s */
+h1.title-s {
+    line-height: 16px;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+/* Стили для .border-7 */
+.border-7 {
+    border-radius: 7px;
+}
+
+/* Стили для .gname */
+.gname {
+    border: 1px solid #3CBFDB;
+    border-radius: 4px;
+    margin: 6px 5px 7px;
+    padding: 6px 10px;
+    transition: all .2s ease-in-out;
+}
+
+/* Стили для .game-code */
+.game-code {
+    margin-bottom: 10px;
+}
+
+/* Стили для .gcontrol */
+.gcontrol {
+    border: 1px solid #3CBFDB;
+    border-radius: 4px;
+    margin: 4px 12px 12px;
+    padding: 6px 10px;
+}
+
+/* Стили для .gcontrol-h2 */
+.gcontrol-h2 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+/* Стили для .gcontrol ul */
+.gcontrol ul {
+    display: flex;
+    padding: 7px 0 0;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Стили для .gcontrol ul li */
+.gcontrol ul li {
+    margin: 0 .5em .5em;
+    padding-right: 10px;
+    list-style: none;
+    border-right: 1px solid #e3e3e3;
+}
+
+.gcontrol ul li:last-child {
+    border: none;
+}
+
+.gcontrol ul li:first-child {
+    margin-left: 0;
+}
+
+/* Стили для .bottom_ad */
+.bottom_ad {
+    text-align: center;
+    width: 100%;
+}
+
+/* Стили для .gdesc */
+.gdesc {
+    background: #FFFAFA;
+    padding: 6px 0;
+    text-align: justify;
+    min-height: 90px;
+    border-bottom: 1px dotted #EDCC3D;
+    border-top: 1px dotted #EDCC3D;
+    margin: 10px 6px 10px;
+}
+
+/* Стили для #image-article */
+#image-article {
+    border: 3px solid #ccebf9;
+    float: left;
+    margin: 1px 10px 0;
+    padding: 0;
+    width: 110px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Стили для .item-separator */
+.item-separator {
+    background: #CACACA;
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Стили для .related */
+.related {
+    text-align: center;
+    width: 100%;
+}
+
+/* Стили для .related-title */
+.related-title {
+    text-align: left;
+    margin: 0 10px 10px;
+}
+
+/* Стили для article */
+article {
+    position: relative;
+}
+
+/* Стили для h2.howt */
+h2.howt {
+    color: #c01b1b;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 9px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+/* Дополнительные стили для main */
+main {
+    margin: 0 auto;
+    max-width: 800px; /* Вы можете изменить размер по своему усмотрению */
+}
+
+/* Стили для #content */
+#content {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* Секция похожих игр */
+.related {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.related .game {
+    background-color: #6bc1e0;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    width: 160px;
+    height: 120px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.related .game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.related .game-title {
+    background: linear-gradient(transparent 10%, rgba(0, 0, 0, 1));
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
